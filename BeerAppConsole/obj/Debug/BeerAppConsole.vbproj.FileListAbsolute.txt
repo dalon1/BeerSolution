@@ -1,0 +1,14 @@
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.vbprojResolveAssemblyReference.cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.Resources.resources
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.vbproj.GenerateResource.Cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.vbproj.CoreCompileInputs.cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerAppConsole.exe.config
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerAppConsole.exe
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerAppConsole.pdb
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerAppConsole.xml
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerLibrary.dll
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerLibrary.pdb
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\bin\Debug\BeerLibrary.xml
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.exe
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.xml
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerAppConsole\obj\Debug\BeerAppConsole.pdb

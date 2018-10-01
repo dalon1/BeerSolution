@@ -1,0 +1,10 @@
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\bin\Debug\BeerLibrary.dll
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\bin\Debug\BeerLibrary.pdb
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\bin\Debug\BeerLibrary.xml
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.vbprojResolveAssemblyReference.cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.Resources.resources
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.vbproj.GenerateResource.Cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.vbproj.CoreCompileInputs.cache
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.dll
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.xml
+C:\Users\Dannel\Development\vb_net_projects\BeerSolution\BeerLibrary\obj\Debug\BeerLibrary.pdb
