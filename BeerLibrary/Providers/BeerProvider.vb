@@ -20,6 +20,21 @@ Public Class BeerProvider
         Throw New NotImplementedException()
     End Sub
 
+    Public Sub Save(path As String, ByRef beers As List(Of Beer)) Implements IBeerProvider.Save
+        Throw New NotImplementedException()
+    End Sub
+
+    Public Sub Save(path As String, ByRef beers As List(Of Beer), ByRef log As String) Implements IBeerProvider.Save
+        Dim ln As String
+        Using writer As StreamWriter = New StreamWriter(path)
+            For Each beer As Beer In beers
+                ln = String.Format("{0},{1},{2},{3},{4}", beer.Company, beer.Name, beer.Type, beer.Alcohol, beer.Calories)
+                writer.WriteLine(ln)
+            Next
+            log += (New Log("New Document has been Created")).ToString()
+        End Using
+    End Sub
+
     Public Function GetAll(path As String) As List(Of Beer) Implements IBeerProvider.GetAll
         Throw New NotImplementedException()
     End Function

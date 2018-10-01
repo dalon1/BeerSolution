@@ -20,14 +20,15 @@ Public Class BeerMainForm
         gdvBeers.DataSource = beers
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        'Test Logs
-
-        For i As Integer = 1 To 10
-            txtLogs.Text += (New Log("Dannel is here", New Exception)).ToString()
-        Next
-
-
-
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Dim path As String
+        Using fbd As New FolderBrowserDialog
+            If fbd.ShowDialog() = Windows.Forms.DialogResult.OK Then
+                ' This should be handle in a provider level
+                path = String.Format("{0}/beer-data-{1}.txt", fbd.SelectedPath, DateTime.Now.ToString("yyymmddHHmmssffffff"))
+                beers = gdvBeers.DataSource
+                beerProvider.Save(path, beers, txtLogs.Text)
+            End If
+        End Using
     End Sub
 End Class

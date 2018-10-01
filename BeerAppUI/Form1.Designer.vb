@@ -29,7 +29,8 @@ Partial Class BeerMainForm
         Me.txtFilePath = New System.Windows.Forms.TextBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.txtLogs = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnSend = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.gdvBeers, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,7 +39,8 @@ Partial Class BeerMainForm
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.btnSend)
+        Me.Panel1.Controls.Add(Me.btnSave)
         Me.Panel1.Controls.Add(Me.txtFilePath)
         Me.Panel1.Controls.Add(Me.btnFileExplorer)
         Me.Panel1.Location = New System.Drawing.Point(13, 13)
@@ -98,14 +100,23 @@ Partial Class BeerMainForm
         Me.txtLogs.Size = New System.Drawing.Size(621, 84)
         Me.txtLogs.TabIndex = 0
         '
-        'Button1
+        'btnSave
         '
-        Me.Button1.Location = New System.Drawing.Point(4, 34)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnSave.Location = New System.Drawing.Point(4, 31)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.TabIndex = 2
+        Me.btnSave.Text = "Save"
+        Me.btnSave.UseVisualStyleBackColor = True
+        '
+        'btnSend
+        '
+        Me.btnSend.Location = New System.Drawing.Point(85, 31)
+        Me.btnSend.Name = "btnSend"
+        Me.btnSend.Size = New System.Drawing.Size(75, 23)
+        Me.btnSend.TabIndex = 3
+        Me.btnSend.Text = "Send"
+        Me.btnSend.UseVisualStyleBackColor = True
         '
         'BeerMainForm
         '
@@ -132,7 +143,8 @@ Partial Class BeerMainForm
     Friend WithEvents Panel2 As Panel
     Friend WithEvents gdvBeers As DataGridView
     Friend WithEvents txtFilePath As TextBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Panel3 As Panel
     Friend WithEvents txtLogs As TextBox
+    Friend WithEvents btnSend As Button
+    Friend WithEvents btnSave As Button
 End Class

@@ -9,4 +9,6 @@
     Sub UpdateBeer(ByRef beers As List(Of Beer), ByRef beer As Beer, ByRef log As String)
     Function Delete(ByRef beers As List(Of Beer), ByVal id As String) As Boolean
     Function Delete(ByRef beers As List(Of Beer), ByVal id As String, ByRef log As String) As Boolean
+    Sub Save(ByVal path As String, ByRef beers As List(Of Beer))
+    Sub Save(ByVal path As String, ByRef beers As List(Of Beer), ByRef log As String)
 End Interface

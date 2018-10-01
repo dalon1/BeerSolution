@@ -84,6 +84,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Providers\BeerProvider.vb" />
+    <Compile Include="Utils\FileUtils.vb" />
     <Compile Include="Utils\LogUtils.vb" />
     <Compile Include="Utils\LogUtils_old.vb" />
     <Compile Include="Utils\StringUtils_old.vb" />
